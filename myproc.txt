@@ -1,0 +1,5 @@
+CREATE PROCEDURE myproc(mail varchar(40),mobile varchar(13),date varchar(10),address varchar(40),amount int(11))
+BEGIN
+insert into temp_donor(First_Name,Last_Name,Email,Blood_Group) SELECT First_Name,Last_Name,Email,Blood_Group FROM users WHERE Email='mail';
+UPDATE temp_donor SET Mobile='mobile',Date='date',Address='address',Amount=amount WHERE Email='mail';
+END

@@ -1,0 +1,136 @@
+table{
+width:50%;
+margin-left:240px;
+  width: 50%;
+  
+  background: #FFF;
+  color: #024457;
+  border-radius: 10px;
+  border: 1px solid #167F92;
+  border: 1px solid #167F92;
+}
+th{
+	background-color:#01579b;
+	text-align:center;
+	color:white;
+	font-size:30px;
+	border: 1px solid #167F92;
+}
+td
+{
+	border: 1px solid #167F92;
+}
+tr
+{
+		background-color:#e0e0e0;
+
+	border: 1px solid #167F92;
+}
+h3{
+	
+  color: #212121;
+
+}
+button {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 12px;
+	 border: 2px solid #76ff03;
+}
+button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+logo {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 12px;
+	 border: 2px solid #76ff03;
+}
+logo {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+logo:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
+.redirect {
+margin-left:200px;
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 12px;
+	 border: 2px solid #76ff03;
+}
+.redirect {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	 text-decoration: none;
+}
+
+.redirect:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+@media print {
+    table {
+        background-color: white;
+        height: 50%;
+        width: 60%;
+        position: fixed;
+        top: 200px;
+        left: 150px;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 18px;
+		
+	}
+	button{display:none}
+	h5{display:none}
+	a{display:none}
+	h6{display:none}
+
+	
+}
+.layoutblock{
+  height: 630px;
+  background:#e0e0e0;
+  padding-top: 30px;
+ 
+  margin: 50px;
+  margin-right: 200px;
+  margin-left: 200px; 
+}
+.light { 
+    width:80%; 
+    margin:0 auto; 
+    border:0px none white; 
+    border-top:1px solid black; 
+}
